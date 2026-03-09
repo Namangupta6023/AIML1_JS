@@ -90,12 +90,29 @@ document.write(linebreak) ;*/
 // }
 // document.write("Lool Ended") ;
 
-const person = {
-    fname : "Ajay",
-    lname : "Singh",
-    age : 25
-} ;
+// const person = {
+//     fname : "Ajay",
+//     lname : "Singh",
+//     age : 25
+// } ;
 
-for(let x in person){
-    console.log("person details : " + person[x]) 
-}
+// for(let x in person){
+//     console.log("person details : " + person[x]) 
+// }
+
+
+// let trainerInfo = ["naman", 20 , "Ghaziabad" , {isMarried : true}] ;
+// console.log(trainerInfo[0]) ;
+// console.log(trainerInfo[1]) ;
+// console.log(trainerInfo[3]) ;
+
+// console.log(tarinerInfo[trainerInfo.lenght - 1])
+
+// dom is a document object model 
+
+const result = document.getElementById("para") ;
+console.log(result) ;
+
+result.innerHTML = 'mySelf' ;
+
+const 
