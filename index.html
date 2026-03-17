@@ -7,5 +7,17 @@
         <script src="./script.js"></script>
         <div id="para"></div>
 
+        <h1 id=" myli1" class="demoClass">THE ELEMENT OBJECT</h1> 
+        <p id="demo"></p>
+        <script>
+            const element = document.getelementById("myli1") ;
+            let text = element.getAttribute("class") ;
+            document.getElementById("demo").innerHTML = text ;
+            function myFunction(){
+                document.getElementById("myli1").setAttribute("class","democlass")
+            }
+        </script>
+
+
     </body>
 </html>

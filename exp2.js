@@ -23,3 +23,4 @@ getEmployeeById("dept").value = "" ;
 function filterSalary(){
     let filtered = employee
 }
+
